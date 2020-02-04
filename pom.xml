@@ -29,6 +29,37 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <!--Annotation processor-->
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator-annotation-processor</artifactId>
+            <version>6.1.1.Final</version>
+        </dependency>
+        <dependency>
+            <!--CDI Integration-->
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator-cdi</artifactId>
+            <version>6.1.1.Final</version>
+        </dependency>
+        <!--Core implementation-->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.1.1.Final</version>
+        </dependency>
+        <!--OSGI Integration-->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator-osgi</artifactId>
+            <version>6.1.1.Final</version>
+        </dependency>
 
     </dependencies>
+
 </project>
